@@ -12,9 +12,10 @@ namespace Felsökning_Lab_4
         {
             //maximillian Lunbdberg Chas Academy .NET 2024
 
-            //---------------------------------- case 1 ----------------------------------
-            //----------------------------------
+            //------------------------------------------------ Case 1 ------------------------------------------------------
+
             // Det saknades ett semicolon efter Concole.writeline i första if statmentet och else if hadde inget mellanrum (elseif)
+
             int number = 2;
 
             if (number > 3)
@@ -26,8 +27,8 @@ namespace Felsökning_Lab_4
                 Console.WriteLine("Talet är mindre än tre");
             }
 
-            //---------------------------------- Case 2 ----------------------------------
-            //----------------------------------
+            //------------------------------------------------ Case 2 ------------------------------------------------------
+
             // Jag ändrade mindre än teknet (<) efter 100 till ett mindre en ELLER LIKAMED teken (<=)
 
 
@@ -36,8 +37,8 @@ namespace Felsökning_Lab_4
                 Console.WriteLine(i);
             }
 
-            //---------------------------------- Case 3 ----------------------------------
-            //----------------------------------
+            //------------------------------------------------ Case 3 ------------------------------------------------------
+
             // Dom lokala variablarna i och j saknar en "acction to perform" i slutet av for loopen, jag la till ++ som "action to perform" på i och j 
             // när du skriver en for loop kan du ha 3 saker
             // 1. deklarera en variabel (och dess värde om det behövs), i deta fall int i = 1 och int j =1
@@ -53,8 +54,8 @@ namespace Felsökning_Lab_4
                 Console.WriteLine();
             }
 
-            //---------------------------------- Case 4 ----------------------------------
-            //
+            //------------------------------------------------ Case 4 ------------------------------------------------------
+  
             // Koden har ingen output eftersom både C.write och C.Writeline var toma 
             // jag la till j variabeln i C.Write så användaren kan se att forloopen räknar
             // och i While loopen la jag till ett ett meddelande som säger hur många gånger while lopen har körts inom whileloopen
@@ -74,7 +75,7 @@ namespace Felsökning_Lab_4
 
             // PS: var tvungen att ändra i till 1 eftersom i användes i koden ovanför också
 
-            //----------------------------------Case 5----------------------------------
+            //------------------------------------------------ Case 5 ------------------------------------------------------
 
 
             // Jag la till ett breakstatment i Case 1, om det inte finns ett breakstatment under varje case och om caset är tomt
@@ -96,7 +97,7 @@ namespace Felsökning_Lab_4
                     break;
             }
 
-            //---------------------------------- Case 6 ----------------------------------
+            //------------------------------------------------ Case 6 ------------------------------------------------------
             //
             // jag ändrade = i if statmentet till ==
             // i programering bettyder = "gets" och == bettyder likamed(=)
